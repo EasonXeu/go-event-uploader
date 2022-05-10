@@ -85,7 +85,7 @@ func (result *Result) GetCostMs() int64 {
 	return result.attemptList[cursor].CostMs
 }
 
-func initResult() *Result {
+func createResult() *Result {
 	return &Result{
 		attemptList: []*Attempt{},
 		success:     false,

@@ -25,7 +25,8 @@ func calculateLogsBytes(logs []*Log) int {
 
 func generateLog() *Log {
 	content := ""
-	for i := 0; i < 100; i++ {
+	len := rand.Intn(1000)
+	for i := 0; i < 10+len; i++ {
 		idx := rand.Intn(charSetLen)
 		content = content + string(charSet[idx])
 	}

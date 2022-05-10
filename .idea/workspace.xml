@@ -5,18 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1555b4e-07e3-4358-bda1-2858d3e786a2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/broker.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consume.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consume_context.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log_accumulator.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log_model.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log_model_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/produce.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/broker.go" beforeDir="false" afterPath="$PROJECT_DIR$/broker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log_accumulator.go" beforeDir="false" afterPath="$PROJECT_DIR$/log_accumulator.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log_model.go" beforeDir="false" afterPath="$PROJECT_DIR$/log_model.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/produce.go" beforeDir="false" afterPath="$PROJECT_DIR$/produce.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product.go" beforeDir="false" afterPath="$PROJECT_DIR$/product.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result.go" beforeDir="false" afterPath="$PROJECT_DIR$/result.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
