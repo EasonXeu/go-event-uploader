@@ -3,7 +3,6 @@ module github.com/EasonXeu/go-producer-consumer
 go 1.18
 
 require (
-	github.com/antonfisher/nested-logrus-formatter v1.3.1
 	github.com/go-echarts/statsview v0.3.4
 	github.com/sirupsen/logrus v1.8.1
 	github.com/stretchr/testify v1.7.1

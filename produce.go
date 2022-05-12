@@ -25,7 +25,7 @@ func InitProduce() *Produce {
 	produce := &Produce{}
 	logger := logrus.New()
 	logger.SetOutput(os.Stdout)
-	logger.SetLevel(logrus.InfoLevel)
+	logger.SetLevel(logrus.DebugLevel)
 	logger.SetFormatter(&logrus.JSONFormatter{
 		TimestampFormat: time.RFC3339Nano,
 	})
