@@ -30,6 +30,7 @@ func initBroker(logger *logrus.Logger, logAccumulator *LogAccumulator, consume *
 
 func (broker *Broker) run(brokerWaitGroup *sync.WaitGroup) {
 	broker.logger.Infoln("broker start")
+	//TODO moves the persisted data to consumer pool
 	for !broker.brokerShutDownFlag.Load() {
 		broker.logger.Debugln("broker run once")
 		var sleepMs int64 = int64(math.Min(defaultSleepMs, float64(MaxWaitingMsOfProduct)))

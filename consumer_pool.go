@@ -75,6 +75,7 @@ func (consumerPool *ConsumerPool) start(consumerPoolWaitGroup *sync.WaitGroup) {
 	}
 	//waiting until all goroutines created by consumerPool exiting
 	consumerPool.consumerWaitGroup.Wait()
+	//TODO persist the data in retry queue to file
 	consumerPoolWaitGroup.Done()
 	consumerPool.logger.Infoln("consumerPool exit")
 }

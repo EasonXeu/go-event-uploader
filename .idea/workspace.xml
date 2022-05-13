@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1555b4e-07e3-4358-bda1-2858d3e786a2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/go-producer-consumer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/produce.go" beforeDir="false" afterPath="$PROJECT_DIR$/produce.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/broker.go" beforeDir="false" afterPath="$PROJECT_DIR$/broker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer_pool.go" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_pool.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
