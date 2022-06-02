@@ -17,6 +17,9 @@ func NewClient() *Client {
 	return &Client{}
 }
 func (c *Client) sendLog(product *Product) error {
+	// you can compress your logs before sending them by the network
+	// I recommend to use lz4, you can find some benchmarks here
+	// (https://catchchallenger.first-world.info/wiki/Quick_Benchmark:_Gzip_vs_Bzip2_vs_LZMA_vs_XZ_vs_LZ4_vs_LZO)
 	logs := product.logs
 	ranNum := rand.Intn(10000)
 	if ranNum >= 0 && ranNum < 9000 {
